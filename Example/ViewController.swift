@@ -37,6 +37,7 @@ class ViewController: UIViewController {
             self?.dismiss(animated: true, completion: nil)
         }
         
+        cameraViewController.modalPresentationStyle = .fullScreen
         present(cameraViewController, animated: true, completion: nil)
     }
     
@@ -46,6 +47,7 @@ class ViewController: UIViewController {
             self?.dismiss(animated: true, completion: nil)
         }
         
+        libraryViewController.modalPresentationStyle = .fullScreen
         present(libraryViewController, animated: true, completion: nil)
     }
     
